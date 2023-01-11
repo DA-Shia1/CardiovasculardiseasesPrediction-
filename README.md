@@ -32,3 +32,32 @@ The short description of each attribute is below:
 * Smoking: If the patient smokes or not (Boolean)
 * Time: Follow-up period (days)
 
+4.	Data preparation
+
+Before dive into developing ML model, we first need to analyze the data. Data preparation will take into 4 steps. The first is clean data.  Second is data validation. Third is data visualization, and last is data partition.  
+
+This step is reviewing the overall data. Initial assessment of the data to identify which columns are Quantitative, Categorical or Qualitative.
+
+5. Data Cleaning:
+
+* There are no missing values in the data.
+Using hfp.isna.sum()
+
+6. Data Validation:
+* We have checked for the balance of the data based on the output variable that is 0 and 1
+* Identified the type of variables based on the number of unique values in column using [.]append and [.]unique
+
+7. Visualizing The Data :
+
+* Bar Graph
+* Pie Chart
+* Scatter Plot
+* Box PLot
+* Corelation matrix
+* Histogram Distribution
+
+
+8. Partitioning and Scaling the data : 
+* We have split the data into training set (80%) and validation set (20%).
+
+
